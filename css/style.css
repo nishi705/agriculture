@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+.header-section{
+    height:15vh;
+    background-color:cadetblue;
+    border-bottom:3px solid green;
+    display:flex;
+    flex-direction:row;
+     align-items: center;
+     justify-content: space-around;
+     font-family:sans-serif; 
+     font-style: italic;
+     
+}
+.logo{
+    height:10vh;
+    width:20w;
+}
+header.header-section ul{
+    display:flex;
+    list-style:none;
+    padding-left:20vw;
+}
+header.header-section ul li{
+    padding: 1em;
+    
+}
+header.header-section ul li a{
+    text-decoration: none;
+    font-family:'pacifico',cursive;
+    font-size: 20px;
+    color: red;
+}
+header.header-section li a:hover{
+    color: brown;
+    padding: 5px;
+    border-bottom: 2px solid brown;
+
+}
+.signup-button{
+    background-color: blue;
+    padding: 1em;
+    border:2px solid white;
+    border-radius:10px;
+    
+}
+.hero-unit-section {
+    
+    background-image: url("../img/pic1.jpg" ) ;
+    height: 50vh;
+    font-weight: bold;
+    background-color: skyblue;
+    
+
+    
+}
+
+header.header-section button:hover{
+background-color:skyblue;
+padding:1em;
+border:2px 
+}
+.card-container{
+    text-align: center;
+    height:100vh;
+    
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardholder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.card{
+    height:50vh;
+    width: 20vw;
+    background-color: white;
+    text-align: center;
+    box-shadow: 10px 10px 20px red;
+}
+.card img{
+    height: 40vh;
+    width: 18vw;
+}.card p{
+    padding: 1.5em;
+    text-align: justify;
+}
+#footer{
+    height: 45px;
+}
+#footer a #footer:hover{
+    background-color: #003366;
+    border-radius: 20px 20px 20px 20px;
+}
